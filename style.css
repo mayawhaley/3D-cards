@@ -16,6 +16,7 @@ body {
 
 .container, .container2, .container3{
   width: 50%;
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,7 +54,8 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background: linear-gradient(90deg, rgba(0,0,0,.75) 0%, rgba(193,193,193,.75) 100%);
+  /* background: linear-gradient(90deg, rgba(0,0,0,.75) 0%, rgba(193,193,193,.75) 100%); */
+  background: rgb(161, 161, 164);
 }
 
 .circle2{
@@ -62,7 +64,8 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background: linear-gradient(90deg, rgba(111,148,208,.75) 0%, rgba(193,193,193,.75) 47%, rgba(255,255,255,.75) 100%);
+  /* background: linear-gradient(90deg, rgba(111,148,208,.75) 0%, rgba(193,193,193,.75) 47%, rgba(255,255,255,.75) 100%); */
+  background: rgb(108, 146, 204);
 }
 
 .circle3{
@@ -71,7 +74,8 @@ body {
   width: 150px;
   height: 150px;
   border-radius: 50%;
-  background: linear-gradient(90deg, rgba(0,0,0,0.75) 0%, rgba(182,86,22,0.75) 47%, rgba(255,255,255,0.75) 100%);
+  /* background: linear-gradient(90deg, rgba(0,0,0,0.75) 0%, rgba(182,86,22,0.75) 47%, rgba(255,255,255,0.75) 100%); */
+  background: rgb(182,86,22);
 }
 
 
@@ -120,12 +124,19 @@ transition: all 0.75s ease-out;
   
 }
 
-.purchase, .purchase2, .purchase3{
-  margin-top: 40px;
+.purchase2, .purchase3{
+  margin-top: 20px;
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: center;
   
+}
+
+.purchase{
+  margin-top: 40px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
 }
 
 .purchase button, .purchase2 button, .purchase3 button{

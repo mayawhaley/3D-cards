@@ -4,9 +4,9 @@ const card = document.querySelector('.card');
 const card2 = document.querySelector('.card2');
 const card3 = document.querySelector('.card3');
 
-const container = document.querySelector('.container');
-const container2 = document.querySelector('.container2');
-const container3 = document.querySelector('.container3');
+// const container = document.querySelector('.container');
+// const container2 = document.querySelector('.container2');
+// const container3 = document.querySelector('.container3');
 
 const title = document.querySelector('.title');
 const title2 = document.querySelector('.title2');
@@ -55,31 +55,31 @@ card3.addEventListener('mousemove', (e) => {
 //when mouse enters container, container transforms on z axix
 card.addEventListener('mouseenter', (e) => {
     card.style.transition = 'none';
-    title.style.transform = 'translateZ(150px)';
-    sneaker.style.transform = 'translateZ(220px) rotateZ(-330deg)';
-    description.style.transform = 'translateZ(100px';
-    purchase.style.transform = 'translateZ(100px)';
-    sizes.style.transform = 'translateZ(100px)';
+    title.style.transform = 'translateZ(100px)';
+    sneaker.style.transform = 'translateZ(200px) rotateZ(-330deg)';
+    description.style.transform = 'translateZ(75px)';
+    purchase.style.transform = 'translateZ(75px)';
+    sizes.style.transform = 'translateZ(75px)';
 
 })
 
 card2.addEventListener('mouseenter', (e) => {
     card2.style.transition = 'none';
-    title2.style.transform = 'translateZ(150px)';
-    sneaker2.style.transform = 'translateZ(220px) rotateZ(-330deg)';
-    description2.style.transform = 'translateZ(100px';
-    purchase2.style.transform = 'translateZ(100px)';
-    sizes2.style.transform = 'translateZ(100px)';
+    title2.style.transform = 'translateZ(100px)';
+    sneaker2.style.transform = 'translateZ(200px) rotateZ(-330deg)';
+    description2.style.transform = 'translateZ(75px)';
+    purchase2.style.transform = 'translateZ(75px)';
+    sizes2.style.transform = 'translateZ(75px)';
 
 })
 
 card3.addEventListener('mouseenter', (e) => {
     card3.style.transition = 'none';
-    title3.style.transform = 'translateZ(150px)';
-    sneaker3.style.transform = 'translateZ(220px) rotateZ(-330deg)';
-    description3.style.transform = 'translateZ(100px';
-    purchase3.style.transform = 'translateZ(100px)';
-    sizes3.style.transform = 'translateZ(100px)';
+    title3.style.transform = 'translateZ(100px)';
+    sneaker3.style.transform = 'translateZ(200px) rotateZ(-330deg)';
+    description3.style.transform = 'translateZ(75px)';
+    purchase3.style.transform = 'translateZ(75px)';
+    sizes3.style.transform = 'translateZ(75px)';
 
 })
 
