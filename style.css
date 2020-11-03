@@ -22,7 +22,7 @@ body {
   justify-content: center;
 }
 
-.card {
+.card, .card2, .card3 {
   transform-style: preserve-3d;
   box-shadow: 0px 20px 20px rgba(0, 0,0, 0.2), 0px 0px 50px rgba(0, 0,0, 0.2);
   border-radius: 30px;
@@ -32,7 +32,7 @@ body {
   position: relative;
 }
 
-.nike{
+.nike, .nike2, .nike3{
   min-height: 35vh;
   display: flex;
   align-items: center;
@@ -40,7 +40,7 @@ body {
 
 }
 
-.nike img{
+.nike img, .nike2 img, .nike3 img{
   width: 200px;
   height: auto;
   align-items: center;
@@ -55,17 +55,34 @@ body {
   height: 150px;
   border-radius: 50%;
   background: linear-gradient(90deg, rgba(0,0,0,.75) 0%, rgba(193,193,193,.75) 100%);
-  /* rgba(244,93,93,.75) 47% */
-  /* rgb(255, 84, 78, .75) 47% */
 }
 
-.info h1{
+.circle2{
+  position: absolute;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, rgba(111,148,208,.75) 0%, rgba(193,193,193,.75) 47%, rgba(255,255,255,.75) 100%);
+}
+
+.circle3{
+  position: absolute;
+  z-index: 1;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: linear-gradient(90deg, rgba(0,0,0,0.75) 0%, rgba(182,86,22,0.75) 47%, rgba(255,255,255,0.75) 100%);
+}
+
+
+.info h1, .info2 h1, .info3 h1{
   font-size: large;
   font-weight: bolder;
   transition: all 0.75s ease-out;
 }
 
-.info h3{
+.info h3, .info2 h3, .info3 h3{
 font-size: medium;
 padding: 15px 0px;
 color: rgb(65, 64, 64);
@@ -73,7 +90,7 @@ font-weight: lighter;
 transition: all 0.75s ease-out;
 }
 
-.sizes{
+.sizes, .sizes2, .sizes3{
   display: flex;
   justify-content: space-between;
   flex-flow: row wrap;
@@ -84,7 +101,7 @@ transition: all 0.75s ease-out;
   
 }
 
-.sizes button{
+.sizes button, .sizes2 button, .sizes3 button{
   background: none;
   border: none;
   width: 45px;
@@ -98,13 +115,13 @@ transition: all 0.75s ease-out;
   
 }
 
-.sizes button.active{
+.sizes button.active, .sizes2 button.active, .sizes3 button.active{
   color: white;
   background-color: rgb(65, 64, 64);
   
 }
 
-.purchase{
+.purchase, .purchase2, .purchase3{
   margin-top: 40px;
   display: flex;
   align-items: center;
@@ -112,7 +129,7 @@ transition: all 0.75s ease-out;
   
 }
 
-.purchase button{
+.purchase button, .purchase2 button, .purchase3 button{
   width: 70%;
   height: 30px;
   padding: 5px 0px;
